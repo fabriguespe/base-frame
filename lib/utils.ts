@@ -23,18 +23,11 @@ export function currentURL(pathname: string): URL {
   }
 }
 
-export function vercelURL() {
-  return process.env.NEXT_PUBLIC_HOST
-    ? process.env.NEXT_PUBLIC_HOST
-    : undefined;
-}
-
 export function appURL() {
   if (process.env.APP_URL) {
     return process.env.APP_URL;
   } else {
-    const url = process.env.APP_URL || vercelURL() || "http://localhost:3000";
-    return url;
+    return "http://localhost:3000";
   }
 }
 
