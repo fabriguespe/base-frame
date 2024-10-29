@@ -52,11 +52,11 @@ let mintUrl = generateTransactionUrl("mint", {
      - `token_to=DAI` specifies DAI as the currency to receive in the swap.
 3. **Mint Transaction:**
    - **Purpose**: To create (mint) a new token or NFT.
-   - **Example URL**: `http://localhost:3001/?transaction_type=mint&buttonName=Mint&collection=0x123456789ABCDEF&token_id=1023`
+   - **Example URL**: `http://localhost:3001/?transaction_type=mint&buttonName=Mint&collection=0x73a333cb82862d4f66f0154229755b184fb4f5b0&token_id=1`
    - **Parameters**:
      - `transaction_type=mint` indicates the minting of a new NFT.
-     - `collection=0x...` specifies the NFT collection.
-     - `token_id=1023` specifies the unique identifier of the NFT within the collection.
+     - `collection=0x73a333cb82862d4f66f0154229755b184fb4f5b0` specifies the NFT collection.
+     - `token_id=1` specifies the unique identifier of the NFT within the collection.
 
 ## Development
 

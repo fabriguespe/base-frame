@@ -4,7 +4,7 @@ import { mint1155 } from "@/lib/transactions";
 export async function POST(req: NextRequest) {
   const url = new URL(req.url);
   const { searchParams } = url;
-  const collection = searchParams.get("collection") || "";
+  let collection = searchParams.get("collection") || "";
   const tokenId = searchParams.get("token_id") || "";
   const user_address = searchParams.get("user_address") || "";
 
