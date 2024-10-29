@@ -5,7 +5,7 @@ import { Urbanist } from "next/font/google";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Base Frame",
+  title: "Base Tx Frame",
   description: "A frame to send transactions",
 };
 

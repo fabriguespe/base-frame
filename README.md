@@ -1,4 +1,4 @@
-# Base Frame v2
+# Base Tx Frame
 
 This is a frame following the [frames.js OpenFrames](https://framesjs.org/middleware/openframes) standard, working on Base mainnet.
 
