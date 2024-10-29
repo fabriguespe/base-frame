@@ -24,8 +24,8 @@ export function currentURL(pathname: string): URL {
 }
 
 export function appURL() {
-  if (process.env.APP_URL) {
-    return process.env.APP_URL;
+  if (process.env.NEXT_PUBLIC_HOST) {
+    return process.env.NEXT_PUBLIC_HOST;
   } else {
     return "http://localhost:3000";
   }
