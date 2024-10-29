@@ -18,6 +18,9 @@ const handler = frames(async (ctx) => {
       ? ctx.message?.requesterVerifiedAddresses[0]
       : ctx.message?.verifiedWalletAddress;
 
+  // Check this to work wthout balance check
+  //const userAddress = await ctx.walletAddress();
+
   const transactionType = ctx.url.searchParams
     .get("transaction_type")
     ?.toLowerCase();
