@@ -25,8 +25,8 @@ export const frames = createFrames({
         version: "2024-02-09",
       },
       handler: {
-        isValidPayload: (body: JSON) => isXmtpFrameActionPayload(body),
-        getFrameMessage: async (body: JSON) => {
+        isValidPayload: (body: any) => isXmtpFrameActionPayload(body),
+        getFrameMessage: async (body: any) => {
           if (!isXmtpFrameActionPayload(body)) {
             return undefined;
           }

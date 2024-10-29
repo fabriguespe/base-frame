@@ -42,9 +42,6 @@ const handler = frames(async (ctx) => {
         <Button action="post" key="3" target="/?transaction_type=mint">
           Mint
         </Button>,
-        <Button action="post" key="4" target="/info">
-          Learn More
-        </Button>,
       ],
     };
   }
@@ -1003,9 +1000,6 @@ const handler = frames(async (ctx) => {
       </Button>,
       <Button action="post" key="3" target="/?transaction_type=mint">
         Mint
-      </Button>,
-      <Button action="post" key="4" target="/info">
-        Learn More
       </Button>,
     ],
   };

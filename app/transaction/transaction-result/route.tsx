@@ -46,9 +46,6 @@ const handler = frames(async (ctx) => {
         >
           Mint
         </Button>,
-        <Button action="post" key="4" target="/info">
-          Learn More
-        </Button>,
       ],
     };
   }
@@ -78,7 +75,7 @@ const handler = frames(async (ctx) => {
           action="link"
           target={`https://basescan.org/tx/${transactionId}`}
         >
-          See tx on Basescan
+          Basescan
         </Button>,
         <Button
           key="2"
@@ -110,7 +107,7 @@ const handler = frames(async (ctx) => {
           action="link"
           target={`https://basescan.org/tx/${transactionId}`}
         >
-          See tx on Basescan
+          Basescan
         </Button>,
         <Button action="post" key="2" target="/">
           Home
@@ -133,7 +130,7 @@ const handler = frames(async (ctx) => {
           action="link"
           target={`https://basescan.org/tx/${transactionId}`}
         >
-          See tx on Basescan
+          Basescan
         </Button>,
         <Button action="post" key="2" target="/">
           Home
@@ -154,7 +151,7 @@ const handler = frames(async (ctx) => {
         action="link"
         target={`https://basescan.org/tx/${transactionId}`}
       >
-        See tx on Basescan
+        Basescan
       </Button>,
       <Button
         key="2"
